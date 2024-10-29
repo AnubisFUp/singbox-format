@@ -1,0 +1,22 @@
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "wireguard-out",
+      "interface_name": "wg0",
+      "local_address": ["10.8.0.3/32"],
+      "private_key": "aMw1/IDCtJMKexp9NtrfPVSxXoubs5J6jD1hjgW1kk=",
+      "server": "1.1.1.1",
+      "server_port": 51820,
+      "peer_public_key": "=",
+      "pre_shared_key": "+dIAki61AVKc=",
+      "reserved": "AAAA",
+      "workers": 4,
+      "mtu": 1408,
+      "fake_packets": "1-10",
+      "fake_packets_size": "1-10",
+      "fake_packets_delay": "1-10",
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
